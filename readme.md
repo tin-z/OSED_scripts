@@ -7,6 +7,14 @@
 
  - [demo-1](#demo-1)
 
+ - Further material :
+    
+    * [narly.js](https://github.com/tin-z/narly.js)
+    
+    * [IDC Ida scripts](https://github.com/tin-z/IDC_OSED_scripts)
+    
+    * [windbg simple code tracing](https://github.com/tin-z/windbg-code-tracing)
+
 
 ----
 
