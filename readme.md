@@ -41,6 +41,8 @@
 
     * After reaching the breakpoint, The `READY_OPCODE` bytes are also copied into the shared memory area before the content of the address given by `<cmd>`, which in this case is `poi(esp+8)` (the size of bytes is the value of 'mem_size' defined inside map_shared_mem_example.py). 
 
+    * The script does expect the named shared memory (as defined from map_shared_mem_example.py) to be already created.
+
     * This was done for telling to the receiver that a new data was written by the sender. 
 
     * The receiver must read the content of the shared memory area and set the `CLEAN_OPCODE` in the starting position of the shared memory. 
